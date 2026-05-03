@@ -21,6 +21,8 @@ Then follow the interview script in onboarding.md exactly:
 - When you have enough answers, output a complete filled-in AGENTS.md
   for my company (strip stages above my current one, compute $ alongside %,
   bias each agent's first-week goals toward my biggest constraint).
+- Save the result as ./AGENTS.md in my current working directory
+  (overwrite if it already exists), then confirm the path you wrote to.
 
 Start with question 1.
 ```

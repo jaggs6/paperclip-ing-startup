@@ -81,6 +81,12 @@ When you have answers, produce a complete `AGENTS.md` by:
 5. **Keep approval-gate thresholds in % of cap**, not dollars — that's the v1.1 convention.
 6. **Add a "This week's focus" block per agent** for the first 7 days, like the examples do.
 
+## Saving the file
+
+Save the filled template as `./AGENTS.md` in the user's current working directory. Overwrite an existing `AGENTS.md` only after warning the user. If you have no filesystem tools, render the file as a single fenced code block and tell the user the exact filename and path to save it as.
+
+After saving, confirm the path you wrote to, e.g. *"Saved to `./AGENTS.md` (1,847 words)."*
+
 ## Hand-off
 
 After producing the filled `AGENTS.md`, tell the user exactly two things:
