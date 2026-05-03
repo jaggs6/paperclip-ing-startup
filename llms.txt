@@ -1,0 +1,24 @@
+# paperclip-ing-startup
+
+> A lean, stage-based AGENTS.md template that bootstraps an AI-run company on [Paperclip](https://paperclip.ing). Defines an org chart (CEO / Builder / Operator → Engineer, Designer, Growth, Support, Sales, …) with %-of-cap budgets, heartbeats, approval gates, and promotion triggers tied to revenue and user milestones.
+
+This repo is meant to be read by an LLM and used to either (a) interview a founder and produce a filled `AGENTS.md`, or (b) hand `AGENTS.md` directly to a Paperclip onboarding agent.
+
+## Core docs
+
+- [README.md](README.md): Project overview, quick start, repo map.
+- [AGENTS.md](AGENTS.md): The template. Stage 0–4 org chart, per-stage % budget allocations, approval gates, promotion/demotion rules. **Edit this file** to spec a company.
+- [CONTRIBUTING.md](CONTRIBUTING.md): PR rules — keep it lean, cite triggers.
+
+## LLM instructions
+
+- [prompts/onboarding.md](prompts/onboarding.md): Step-by-step interview script for an LLM to elicit the inputs needed to fill `AGENTS.md`. Use this when a user says "help me set up Paperclip."
+
+## Examples
+
+- [examples/b2b-saas.md](examples/b2b-saas.md): Filled-in B2B SaaS at Stage 1 (first paying customer), $1,500/mo cap.
+- [examples/indie-app.md](examples/indie-app.md): Filled-in solo indie consumer app at Stage 0 (pre-revenue), $400/mo cap.
+
+## External
+
+- [paperclip.ing](https://paperclip.ing): The Paperclip product itself.

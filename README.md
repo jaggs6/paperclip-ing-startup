@@ -32,6 +32,8 @@ Most "AI-native company" guides skip the boring parts: who reports to whom, what
 | File | Purpose |
 |------|---------|
 | [`AGENTS.md`](AGENTS.md) | The template. Edit this. |
+| [`llms.txt`](llms.txt) | Sitemap for LLMs reading this repo (per [llmstxt.org](https://llmstxt.org)). |
+| [`prompts/onboarding.md`](prompts/onboarding.md) | Interview script — paste into ChatGPT/Claude with your codebase and it'll walk you through filling out `AGENTS.md`. |
 | [`examples/b2b-saas.md`](examples/b2b-saas.md) | Filled-in example for a B2B SaaS at Stage 1. |
 | [`examples/indie-app.md`](examples/indie-app.md) | Filled-in example for a solo indie consumer app. |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to propose changes. |
