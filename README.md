@@ -4,7 +4,30 @@ Spin up an AI-run company on Paperclip without staring at a blank screen.
 
 This repo gives you a single source of truth — [`AGENTS.md`](AGENTS.md) — that describes a stage-based org chart (CEO, Builder, Operator → Engineer, Designer, Growth, Support, Sales, …) with budgets, heartbeats, and approval gates already filled in. Edit the placeholders, hand it to Paperclip, and you have a running company.
 
-## Quick start
+## Quick start (with an LLM — recommended)
+
+Open ChatGPT, Claude, or any LLM that can fetch URLs. Paste this prompt:
+
+```
+You are helping me bootstrap an AI-run company on Paperclip (https://paperclip.ing).
+
+Read these two files first:
+- https://raw.githubusercontent.com/jaggs6/paperclip-ing-startup/main/AGENTS.md
+- https://raw.githubusercontent.com/jaggs6/paperclip-ing-startup/main/prompts/onboarding.md
+
+Then follow the interview script in onboarding.md exactly:
+- Ask me ONE question at a time, in order.
+- Default aggressively when I don't know.
+- When you have enough answers, output a complete filled-in AGENTS.md
+  for my company (strip stages above my current one, compute $ alongside %,
+  bias each agent's first-week goals toward my biggest constraint).
+
+Start with question 1.
+```
+
+The LLM will interview you and hand back a ready-to-paste `AGENTS.md`. Drop it into [paperclip.ing](https://paperclip.ing) and you're running.
+
+## Quick start (manual)
 
 1. **Fork or download** this repo.
 2. Open [`AGENTS.md`](AGENTS.md) and fill in the four placeholders at the top:
