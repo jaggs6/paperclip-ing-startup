@@ -23,7 +23,7 @@ Most "AI-native company" guides skip the boring parts: who reports to whom, what
 
 - **Stage gates** — you don't hire a Sales agent at $0 MRR.
 - **Approval gates** — irreversible actions always escalate to the human Board.
-- **Budgets** — every agent has a monthly cap; agents stop when they hit it.
+- **Budgets** — every agent gets a **%-of-cap allocation** (not a hardcoded dollar amount), so the same template works whether your monthly cap is $400 or $40,000. Per-stage allocations sum to ≤100%.
 - **Promotion triggers** — explicit metrics that say "split this role now."
 - **Demotion rules** — when to pause or merge agents back.
 

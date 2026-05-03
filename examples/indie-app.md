@@ -18,14 +18,14 @@ A worked example of [`AGENTS.md`](../AGENTS.md) for a one-person founder buildin
 
 ### CEO
 - **Runtime:** Claude Code, every 6h.
-- **Monthly budget:** $100 (lower than template — solo founder, less delegation overhead).
+- **Monthly budget:** 25% of cap → $100.
 - **This week's focus:**
   - Pick the single metric that decides go/no-go at day 90 (current candidate: % of beta couples still active in week 4).
   - Weekly Friday self-review: what did Builder ship, what did Operator hear from users.
 
 ### Builder
 - **Runtime:** Claude Code + Xcode.
-- **Monthly budget:** $200.
+- **Monthly budget:** 55% of cap → $220.
 - **This week's focus:**
   - Ship streak-recovery flow (top complaint from beta).
   - Wire up RevenueCat so the paywall is ready the day Stage 1 trigger fires.
@@ -33,7 +33,7 @@ A worked example of [`AGENTS.md`](../AGENTS.md) for a one-person founder buildin
 
 ### Operator
 - **Runtime:** Claude with inbox + Notion.
-- **Monthly budget:** $80.
+- **Monthly budget:** 20% of cap → $80.
 - **This week's focus:**
   - Reply to TestFlight feedback within 24h (currently 13 unread).
   - Draft 1 short post for IndieHackers about the couples-niche thesis.
@@ -42,12 +42,12 @@ A worked example of [`AGENTS.md`](../AGENTS.md) for a one-person founder buildin
 ## Notable Deviations from the Template
 
 - **No Researcher agent yet.** Stage 1 trigger (first paying customer) hasn't fired. Founder is doing interviews directly during beta — this is allowed under "Generalists first."
-- **Lowered budgets.** Solo founder, smaller cap. Template defaults assume a small team behind the agents.
+- **Tight cap, standard %s.** Cap is small ($400) but the Stage 0 percentage split (25/55/20) is unchanged from the template — small cap, not a re-balanced ratio.
 - **Heartbeats stretched.** Operator runs every 8h instead of 4h — inbound volume is low enough.
 
 ## Live Approval Gates
 
-- Builder flagged a $25/mo Mixpanel add-on. Under the $200/mo threshold → Builder can proceed without CEO sign-off, but logs it in the decision log.
+- Builder flagged a $25/mo Mixpanel add-on. Under the 2%-of-cap = $8 threshold? No — $25 is over. CEO sign-off required, then logged in the decision log.
 - Operator wants to offer a 1-month free extension to the 5 most active beta couples. No financial impact (no paywall yet) → no gate triggered.
 
 ## Next Promotion Trigger
